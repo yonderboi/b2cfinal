@@ -41,16 +41,16 @@ class TestLoginELKWeb:
     def setup(self):
         self.user_phone = "+79202955545"
         self.user_mail = "akostovich@gmail.com"
-        self.user_login = "yonderboi"
-        self.user_ls = "yonderboi"
+        self.user_login = "yonderboi_80"
+        self.user_ls = "yonderboi_80"
         self.password = "rampas-jeJwin-kidgu8"
 
         self.name_valid = 'Александр'
         self.name_invalid = 'Tester'
         self.name_short = 'A'
         self.name_long = 'A' * 40
-        self.test_mail_valid = "velcev88@gmx.com"
-        self.test_mail_invalid = 'velcev88@gmx.com'
+        self.test_mail_valid = "akostovich@gmx.com"
+        self.test_mail_invalid = 'akostovich@gmx.com'
         self.test_pwd_valid = generate_password()
         self.test_pwd_invalid = generate_password_lowercase()
 
